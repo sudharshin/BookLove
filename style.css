@@ -1,0 +1,117 @@
+ *
+ {
+    margin:0;
+    padding:0;
+ }
+h1{
+  font-family: "Poetsen One", sans-serif;
+        font-weight: 200;
+        font-style: normal;      
+}
+.navbar
+{
+    background-color: aquamarine;
+    padding:30px;
+}
+.container{
+    padding:20px;
+}
+.book-container
+{
+    background-color:black;
+    width:25%;
+    padding:20px;
+    border-radius: 10px;
+    text-align:center;
+    margin:10px;
+    display: inline-block;
+    color: white;
+    vertical-align: top;
+}
+.book-container h2{
+color:aqua;
+}
+.book-container button{
+    background-color: aqua;
+    color:black;
+    padding:10px;
+    border-radius: 5px;
+    margin-left:2px;
+}
+.add-btn
+{
+    background-color: aqua;
+    border-radius: 50%;
+    padding:10px;
+    font-size: 50px;
+    border: none;
+    position: fixed;
+    bottom:30px;
+    right:30px;
+    cursor: pointer;
+}
+.popup-overlay
+{
+    background-color: aquamarine;
+    opacity:0.6;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    z-index:1;
+    display:none;
+}
+.popup-box
+{
+    background-color: aquamarine;
+    width:40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top:20%;
+    left:20%;
+    z-index:2;
+    display:none;
+}
+.popup-box input{
+    background: transparent;
+    border:none;
+    width:100%;
+    margin:5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: solid black 2px;
+}
+.popup-box textarea{
+    background: transparent;
+    width:100%;
+    margin:5px;
+    padding: 5px;
+    font-size: 20px;
+    border: solid black 2px;
+}
+.popup-box input::placeholder
+{
+    color: black;
+}
+.popup-box textarea::placeholder
+{
+    color: black;
+}
+.popup-box button{
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 3px;
+    padding:5px;
+    border:none;
+    font-size: 20px;
+    color:white;
+}
+.popup-box input:focus{
+    outline:none;
+}
+.popup-box textarea:focus{
+    outline:none;
+}

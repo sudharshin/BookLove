@@ -1,0 +1,41 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <div class="navbar">
+         <h1>BookLove</h1>
+      </div>
+      <div class="container">
+         <div class="book-container">
+            <h2>The wings of fire</h2>
+            <h5>A.P.J PBDUL KALAM</h5>
+            <p>One of the amazing books that make evey people move forward</p>
+            <button onclick="delbook(event)">Delete</button>
+         </div>
+      </div>
+      <div class="popup-overlay"></div>
+     
+   <div class="popup-box">
+      <h2>Add Book</h2>
+      <form>
+         <input type="text" placeholder="Enter book title" id="book-title">
+         <input type="text" placeholder="Enter book author" id="book-author">
+         <textarea placeholder="Short description" id="book-desc"></textarea>
+         <button id="add-book">Add</button>
+         <button id="cancel-book">cancel</button>
+      </form>
+   </div>
+   <button class="add-btn" id="add-popup-btn" >+</button>
+
+   </body>
+   <script src="script.js"></script>
+   </html>
